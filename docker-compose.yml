@@ -1,0 +1,21 @@
+version: "3.7"
+services:
+
+  postgres:
+    container_name: postgres
+    image: postgres:14
+    restart: unless-stopped
+    environment:
+      POSTGRES_PASSWORD: example
+    ports:
+      - 5432:5432
+    volumes:
+      - ./init/import_data.sh:/docker-entrypoint-initdb.d/import_data.sh
+      - ./data/signals.csv:/signals.csv
+    networks:
+      - superset
+
+networks:
+  superset:
+    name: superset
+    driver: bridge
