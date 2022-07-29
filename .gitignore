@@ -1,5 +1,6 @@
 # Default ignored files
 /shelf/
-/workspace.xml
+/.idea/workspace.xml
 /signals.tgz
 /data/signals.csv
+/.idea
