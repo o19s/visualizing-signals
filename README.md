@@ -1,7 +1,7 @@
 # Visualizing E-Commerce Search Signals
 A Practical Introduction to Exploring and Visualizing E-Commerce Search Signal Data
 
-This repository is accompanying the blog post ["Exploring and Visualizing E-Commerce Search Signal Data - a Practical Introduction"](www.o19s.com/blog)
+This repository is accompanying the blog post ["Visualize e-commerce search signal data with SQL & Apache Superset"](https://opensourceconnections.com/blog/2022/08/17/visualize-ecommerce-search-signal/)
 
 The signal data set of AI-Powered Search by Trey Grainger, Doug Turnbull and Max Irwin (https://www.manning.com/books/ai-powered-search) is used, stored in PostgreSQL and visualized with Apache Superset to derive insights from the data.
 
